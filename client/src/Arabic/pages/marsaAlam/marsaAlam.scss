@@ -1,0 +1,47 @@
+@import "../../../global.scss";
+.marsaTitle{
+    color: rgb(197, 29, 29);
+    margin-top: 20px;
+}
+.marsalist{
+        padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+        .marsaLink{
+            text-decoration: none;
+        }
+        
+    }
+    .marsalistItem{
+        flex: 1;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  .marsaImg{
+    border-radius: 30px;
+    width: 350px;
+  height: 200px;
+  @include mobile{
+    width: 250px;
+
+  
+  }}
+  .marsatitle{
+    display: flex;
+    justify-content: center;
+    .marTitle{
+        font-size: 25px;
+        padding: 10px;
+        @include mobile{
+          font-size: 20px;
+        }
+    }
+  }
+    } 
+    .marsaImg:hover{
+      box-shadow: 0 3px 30px rgb(79, 122, 170);
+    }
+    .travelp{
+      padding: 10px;
+    }

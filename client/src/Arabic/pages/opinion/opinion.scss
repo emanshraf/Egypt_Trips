@@ -1,0 +1,18 @@
+@import "../../../global.scss";
+h2{
+    margin: 20px;
+}.photo{
+    width: 90%;
+     label{
+          padding: 0px 30px;
+     }
+     input{
+        display: flex;
+        justify-content: center;
+     }
+     
+}
+
+button{
+    margin: 10px;
+}

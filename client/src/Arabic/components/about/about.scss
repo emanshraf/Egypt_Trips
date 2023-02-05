@@ -1,0 +1,45 @@
+@import "../../../global.scss";
+
+.about{
+    display: flex;
+    margin: 10px;
+    
+   
+    .desc{
+        height: 90%;
+        width: 60%;
+        padding: 10px;
+        @include tablet{
+            width: 100%; 
+          }
+        h1{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        h2{
+          font-weight: 700;
+          color: rgb(177, 28, 28);
+        }
+        p{
+           font-family:Verdana, Geneva, Tahoma, sans-serif ;
+           padding: 20px 10px 0px ;
+        }
+    }
+    .img1{
+        padding: 40px 10px;
+        @include mobile{
+            display: none;
+          }
+          @include tablet{
+            padding: 150px 0;
+          }
+          
+     }
+     .img2{
+         padding: 90px 10px;
+         @include tablet{
+            display: none;
+          }
+     }
+}
+
+

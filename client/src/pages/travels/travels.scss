@@ -1,0 +1,65 @@
+@import "../../global.scss";
+.travel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      font-size: 40px;
+      font-weight: 800;
+      margin: 20px;
+      @include mobile{
+        font-size: 20px;
+      }
+    }
+}
+.travelMain{
+    background: 
+     linear-gradient(
+       rgba(20, 20, 20, 0.5),
+       rgba(248, 226, 226, 0.5)
+     ),
+    url("./img3.jpg")
+      center;
+  background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    .title{
+        font-size: 40px;
+        color: #fff;
+
+    }
+}
+.pList1{
+    width: 100%;
+    display: flex;
+      justify-content: center;
+    gap: 200px;
+    padding: 170px 0px  120px;
+    @include mobile{
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      
+      }
+    .linkTravels{
+      text-decoration: none;
+    }
+}
+.travelsDesc{
+  padding: 50px;
+  @include mobile{
+    padding: 10px; 
+  }
+  .travelDesc{
+    padding: 20px 10px;
+    .travelsTitle{
+      color: rgb(9, 85, 248);
+      padding: 5px;
+      font-weight:700;
+    }
+  }
+}
+

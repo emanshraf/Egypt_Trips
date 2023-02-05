@@ -1,0 +1,78 @@
+@import "../../global.scss";
+  .contianer{
+  margin: 50px 0 0 0;
+  }
+  .opinion-title{
+    display: grid;
+    justify-content: center;
+  }
+  h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px ;
+    
+  }
+  .opinion{
+       margin: auto;
+      width: 98%;  
+  display: flex;
+  position: relative;
+  overflow: hidden;
+      .opinion-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .opinion-arrow{
+        width: 50px;
+    height: 50px;
+    background-color: #615b5b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    opacity: 0.5;
+    //z-index: 2;
+      }
+      .opinion-wrapper{
+        display: flex;
+        justify-content: center;
+         transition: all 1.5s ease-in-out ;
+      }
+        .opinion-card{
+       margin: 50px 0;
+       width: 100vw;
+      
+        }
+        .opinion-c{
+          width: 70vw;
+          background-color: #ECECEC;
+          margin: auto;
+          padding: 20px 0;
+          border-radius: 4px;
+          text-align: center;
+          border: 1px solid #ECECEC;
+          box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+        }
+      .opinion-img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: rgb(134, 131, 131) 2px solid;
+      }
+      .opinion-name{
+        padding: 5px;
+      }
+      .opinion-desc{
+        padding: 10px 30px;
+      }
+    }
+    
+   
+    
+   

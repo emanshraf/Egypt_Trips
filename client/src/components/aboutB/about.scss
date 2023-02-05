@@ -1,0 +1,44 @@
+@import "../../global.scss";
+.about-contanier{ 
+    padding: 20px;
+    display: flex;
+    @include mobile{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+.about-content{
+background-color: #fff;
+padding: 20px;
+@include mobile{
+    width: 95%;
+}
+.about-title{
+    font-size: 35px;
+    margin: 10px;
+}
+.about-desc{
+    padding: 7px;
+   
+}
+
+.about-desc::first-letter{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:cursive;
+    color: brown;
+}
+
+.about-btn{
+        background-color: rgb(99, 146, 165);
+        color:#fff;
+        border: none;
+        padding: 10px ;
+        cursor: pointer;
+}
+}
+
+
+    

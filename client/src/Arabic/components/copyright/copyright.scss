@@ -1,0 +1,13 @@
+@import "../../../global.scss";
+.copyright{
+  background-color: rgb(99, 92, 92);
+  color: #fff;
+    display: flex;
+    height: 50px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    @include mobile{
+      font-size: 13px;
+    }
+  } 

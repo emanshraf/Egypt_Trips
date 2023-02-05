@@ -1,0 +1,30 @@
+@import "../../../global.scss";
+.homedesc{
+    margin: 30px;
+    padding: 40px;
+    @include mobile{
+        padding: 10px;
+    }
+    h2{
+        font-weight: 700;
+        color: rgb(163, 18, 18);
+    }
+    .det{
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+.homeImag{
+    display: flex;
+    justify-content: center;
+    @include mobile{
+        display: none ;
+    }
+    .homeimg{
+        width:200px; 
+        height:200px;
+      border-radius: 50%;
+      margin: 30px ;
+    }
+
+}
