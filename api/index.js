@@ -25,10 +25,7 @@ mongoose
 
 
 
-app.use(cors({
-  origin:["http://localhost:3000" , 
-  "https://egypt-excursions.onrender.com/"]
-}));
+app.use(cors());
 app.use(express.json());
  
 app.use("/api/products", productRoute);
