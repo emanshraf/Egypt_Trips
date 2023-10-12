@@ -38,7 +38,7 @@ function ContactArabic() {
         </div>
         <div className="info-item">
               <img src="/img/phone.png" className="icon" alt=""/>
-               1005721840 20+
+               201090793007+
         </div>
         <div className="contactIcon">
         <div className="info-item">الأفضل الإتصال عن طريق</div>
