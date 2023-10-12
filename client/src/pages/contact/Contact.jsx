@@ -70,7 +70,7 @@ function Contact() {
         </div>
         <div className="info-item">
               <img src="/img/phone.png" className="icon" alt=""/>
-              +20 1005721840
+              +201090793007
         </div>
         <div className="contactIcon">
         <div className="info-item">It is best to contact by</div>
